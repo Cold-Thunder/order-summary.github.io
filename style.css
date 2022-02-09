@@ -66,6 +66,9 @@ h1{
     color:#534C9C;
     font-weight: bold; 
 }
+.plan a:hover{
+    text-decoration:none;
+}
 
 button{
     border:none;
@@ -77,6 +80,9 @@ button{
 .button button{
     background-color:#382AE1;
     box-shadow:1px 1px 10px;
+}
+.button button:hover{
+    background-color:#766CF1;
 }
 .button p{
     color:white;
@@ -90,6 +96,9 @@ button{
     color:#6D7792;
     font-weight:bold;
     margin:10px;
+}
+.cancel p:hover{
+    color:black;
 }
 
 @media (max-width:400px){
